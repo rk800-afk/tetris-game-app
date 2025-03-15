@@ -1,0 +1,11 @@
+.tetris-element {
+  width: max-content;
+  display: flex;
+}
+
+.tetris-block {
+  width: 35px;
+  height: 35px;
+  background-color: blueviolet;
+  border: 2px solid black;
+}

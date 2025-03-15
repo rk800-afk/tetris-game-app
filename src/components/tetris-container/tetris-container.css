@@ -1,0 +1,77 @@
+.tetris-container {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+}
+
+.tetris-scope-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-bottom: none;
+}
+.tetris-scope-count {
+  color: green;
+  font-size: 20px;
+}
+
+.tetris-field {
+  position: relative;
+  border: 2px solid black;
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(10, 35px); /* 10 колонок */
+  grid-template-rows: repeat(20, 35px); /* 20 рядків */
+}
+
+.field-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+.emplty-cell {
+  width: 35px;
+  height: 35px;
+}
+
+.tetris-next-container {
+  width: 160px;
+  height: 600px;
+  border: 2px solid blue;
+  margin-top: 77px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 18px;
+  border-left: none;
+}
+
+.tetris-next-container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 30px 0;
+}
+
+.tetris-block {
+  background-color: blueviolet;
+  border: 2px solid black;
+}
+
+.next-figure-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.next-figure-container-row {
+  display: flex;
+}

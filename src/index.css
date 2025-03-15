@@ -1,0 +1,57 @@
+/* Всі елементи використовують border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Видаляємо зовнішні відступи */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd,
+pre {
+  margin: 0;
+}
+
+/* Встановлюємо базовий розмір шрифту */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Робимо шрифти читабельнішими */
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Нормалізуємо стиль зображень */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Уніфікуємо стиль кнопок */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* Видаляємо стандартні стилі списків */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
