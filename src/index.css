@@ -32,6 +32,8 @@ html {
 body {
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  background-color: #212349;
 }
 
 /* Нормалізуємо стиль зображень */
